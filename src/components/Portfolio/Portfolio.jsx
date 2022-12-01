@@ -46,7 +46,7 @@ const Portfolio = () => {
                       >
                         <div
                           className="tab-content"
-                          onClick={() => openInNewTab({link})}
+                          onClick={() => openInNewTab(link)}
                         >
                           <img src={image} alt="portfolio project demo" />
                           <h3>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                         >
                           <div
                             className="tab-content"
-                            onClick={() => openInNewTab({link})}
+                            onClick={() => openInNewTab(link)}
                           >
                             <img src={image} alt="portfolio project demo" />
                             <h3>
@@ -98,7 +98,7 @@ const Portfolio = () => {
                         >
                           <div
                             className="tab-content"
-                            onClick={() => openInNewTab({link})}
+                            onClick={() => openInNewTab(link)}
                           >
                             <img src={image} alt="portfolio project demo" />
                             <h3>
@@ -126,7 +126,7 @@ const Portfolio = () => {
                       >
                         <div
                           className="tab-content"
-                          onClick={() => openInNewTab({link})}
+                          onClick={() => openInNewTab(link)}
                         >
                           <img src={image} alt="portfolio project demo" />
                           <h3>
@@ -154,7 +154,7 @@ const Portfolio = () => {
                       >
                         <div
                           className="tab-content"
-                          onClick={() => openInNewTab({link})}
+                          onClick={() => openInNewTab(link)}
                         >
                           <img src={image} alt="portfolio project demo" />
                           <h3>
