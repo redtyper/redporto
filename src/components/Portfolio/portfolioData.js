@@ -12,6 +12,7 @@ const PortfolioData = [
     image: Image1,
     tag: ["wordpress"],
     delayAnimation: "0",
+    link: "https://seatours.pl/",
     modalDetails: [
       {
         project: "WordPress Theme",
@@ -28,6 +29,7 @@ const PortfolioData = [
     image: Image2,
     tag: ["prestashop"],
     delayAnimation: "100",
+    link: "https://sportsbibs.pl",
     modalDetails: [
       {
         project: "PrestaShop",
@@ -44,6 +46,7 @@ const PortfolioData = [
     image: Image3,
     tag: ["prestashop"],
     delayAnimation: "200",
+    link: "https://szafkanabuty.pl",
     modalDetails: [
       {
         project: "PrestaShop",
@@ -60,6 +63,7 @@ const PortfolioData = [
     image: Image4,
     tag: ["wordpress"],
     delayAnimation: "0",
+    link: "https://dobrywzrok.pl",
     modalDetails: [
       {
         project: "WordPress",
@@ -76,13 +80,14 @@ const PortfolioData = [
     image: Image5,
     tag: ["wordpress"],
     delayAnimation: "100",
+    link: "https://dobrywzrok.pl",
     modalDetails: [
       {
         project: "WordPress",
         client: "Baltiki",
         language: "HTML, CSS, Javascript",
         preview: "baltiki.pl",
-        link: "https://baltiki.pl",
+        link: "https://dobrywzrok.pl",
       },
     ],
   },

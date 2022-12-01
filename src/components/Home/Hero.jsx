@@ -1,9 +1,6 @@
-import React, { useState } from "react";
-import Modal from "react-modal";
+import React  from "react";
 import heroImg from "../../assets/img/hero/dark.jpg";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
-import cancelImg from "../../assets/img/cancel.svg";
-import Index from "../../components/about/index";
 
 const heroContent = {
   heroImage: heroImg,
@@ -15,11 +12,8 @@ const heroContent = {
   heroBtn: "Więcej o mnie",
 };
 
-const Hero = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  function toggleModalOne() {
-    setIsOpen(!isOpen);
-  }
+export const Hero = () => {
+ 
 
   return (
     <>
